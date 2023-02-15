@@ -5,7 +5,7 @@ const fs = require('fs')
 
 const NUM_WORKERS = 8 // number of worker threads to spawn
 const CSV_FILE = './urls.csv'
-const QR_CODES_DIR = './qr-codes'
+const QR_CODES_DIR = './images'
 
 if (isMainThread) {
   if (!fs.existsSync(QR_CODES_DIR)) {
